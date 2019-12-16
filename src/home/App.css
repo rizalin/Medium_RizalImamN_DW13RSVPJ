@@ -1,0 +1,73 @@
+body {
+  font-family: medium-content-sans-serif-font, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "Geneva", Arial, sans-serif;
+}
+
+.containers {
+  width: 80%;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .containers {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .containers {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .containers {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .containers {
+    max-width: 1140px;
+  }
+}
+
+ 
+.big-card h3 {
+  font-size: 15px;
+  color: #757575;
+}
+
+.big-card p {
+  color: #757575;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.big-card h4 {
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 600;
+  word-spacing: -3px;
+}
+
+.small-card h5 {
+  font-size: 15px;
+}
+
+.small-card p {
+  color: #757575;
+  font-size: 13px; 
+  line-height: 20px; 
+}
+
+.black {
+  color: black;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 13px;
+}
