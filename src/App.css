@@ -387,3 +387,7 @@ a:hover {
 .bookmark h2{
   font-size: 35px;
 }
+
+.nav-link {
+  display: unset;
+}

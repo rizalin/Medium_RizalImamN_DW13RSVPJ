@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Grid, Avatar } from '@material-ui/core';
-import BookmarkIcon from '@material-ui/icons/Bookmark';
-import { Form, Row, Col, Button } from 'react-bootstrap'
+import { Avatar } from '@material-ui/core';
+import { Row, Col, Button } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import HeaderMedium from './../header/headermedium';

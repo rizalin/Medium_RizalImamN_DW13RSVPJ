@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { makeStyles, withStyles } from '@material-ui/core/styles';
 import Modal from '@material-ui/core/Modal';
 import Backdrop from '@material-ui/core/Backdrop';
@@ -10,10 +10,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons'
 import {
-    BrowserRouter as Router,
-    Route,
-    Link,
-    Switch
+   
+    Link
   } from 'react-router-dom'
 
 
